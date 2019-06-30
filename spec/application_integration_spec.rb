@@ -12,7 +12,7 @@ describe "GET '/' - Greeting Form" do
     visit '/'
 
     expect(page).to have_selector("form")
-    expect(page).to have_field(:user_name)
+    expect(page).to have_field(user_name)
   end
 end
 
